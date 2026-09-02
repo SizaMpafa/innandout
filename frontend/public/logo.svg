@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 160" width="520" height="160">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#bae6fd"/>
+    </linearGradient>
+    <linearGradient id="dropGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="50%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular emblem -->
+  <circle cx="68" cy="80" r="58" fill="url(#metal)" />
+  <circle cx="68" cy="80" r="52" fill="#1e3a8a" />
+  <circle cx="68" cy="80" r="46" fill="url(#bgGrad)" />
+  <circle cx="68" cy="80" r="42" fill="#ffffff" stroke="#1e40af" stroke-width="2.5" />
+
+  <!-- Pipe (left side) -->
+  <g transform="translate(22, 55)">
+    <path d="M0 30 L0 12 Q0 0 12 0 L28 0" fill="none" stroke="#1e3a8a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M0 30 L0 48 Q0 60 12 60 L28 60" fill="none" stroke="#1e3a8a" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="0" cy="30" r="5" fill="#1e3a8a"/>
+    <!-- pipe end highlight -->
+    <path d="M0 26 L0 34" stroke="#3b82f6" stroke-width="2" opacity="0.5"/>
+  </g>
+
+  <!-- Water drop (center) -->
+  <path d="M68 48 C68 48 52 72 52 88 C52 100 59 108 68 108 C77 108 84 100 84 88 C84 72 68 48 68 48 Z" fill="url(#dropGrad)"/>
+  <ellipse cx="62" cy="82" rx="4.5" ry="7" fill="#ffffff" opacity="0.55"/>
+
+  <!-- Wrench (right side) -->
+  <g transform="translate(88, 48)">
+    <!-- handle -->
+    <path d="M8 55 L22 38" fill="none" stroke="#1e3a8a" stroke-width="8" stroke-linecap="round"/>
+    <!-- head -->
+    <path d="M18 22 L32 8 Q40 0 48 10 L55 18" fill="none" stroke="#1e3a8a" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="50" cy="12" r="7" fill="none" stroke="#1e3a8a" stroke-width="5.5"/>
+    <!-- open jaw -->
+    <path d="M4 48 L16 36" fill="none" stroke="#1e3a8a" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- Company name -->
+  <text x="145" y="62" font-family="Arial Black, Helvetica, Arial, sans-serif" font-size="34" font-weight="900" fill="#1e3a8a" letter-spacing="0.5">INNANDOUT</text>
+  
+  <!-- Tagline -->
+  <text x="145" y="86" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="600" fill="#1e40af" letter-spacing="1.2">PLUMBING MAINTENANCE &amp; RENOVATIONS</text>
+
+  <!-- Phone badge -->
+  <rect x="145" y="100" width="195" height="26" rx="13" fill="#1e40af"/>
+  <text x="158" y="118" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#ffffff">☎  060 389 1287</text>
+
+  <!-- Construction Company -->
+  <line x1="145" y1="138" x2="360" y2="138" stroke="#0ea5e9" stroke-width="1.5"/>
+  <text x="145" y="152" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600" fill="#1e3a8a" letter-spacing="1.8">CONSTRUCTION COMPANY</text>
+</svg>
